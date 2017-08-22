@@ -17,7 +17,7 @@ function bgChange() {
 function colorCode() {
 
     var color = "";
-    var code = "abcde0123456789";
+    var code = "abcdef0123456789";
 
     for (var i = 0; i < 6; i++) {
         color += code.charAt(Math.floor(Math.random() * code.length));
